@@ -3,7 +3,7 @@ title = 'Final Integration Project Documentation - Mark Abrahams'
 baseurl = "/"
 theme = "terminal"
 paginate = 5
-baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation/public"
+baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation"
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -82,7 +82,7 @@ baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation
 
     [languages.en.params.logo]
       logoText = "Home"
-      logoHomeLink = "/"
+      logoHomeLink = "/Final-Integration-Project-Documentation"
 
     [languages.en.menu]
 	[[languages.en.menu.main]]
