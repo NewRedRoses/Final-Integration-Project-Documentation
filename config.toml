@@ -8,7 +8,7 @@ baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "pages"
+  contentTypeName = "content/pages"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "red"
@@ -82,7 +82,7 @@ baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation
 
     [languages.en.params.logo]
       logoText = "Home"
-      logoHomeLink = "/Final-Integration-Project-Documentation"
+      logoHomeLink = "/Final-Integration-Project-Documentation/pages/"
 
     [languages.en.menu]
 	[[languages.en.menu.main]]
