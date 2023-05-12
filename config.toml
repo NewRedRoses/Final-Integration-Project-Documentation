@@ -3,7 +3,8 @@ title = 'Final Integration Project Documentation - Mark Abrahams'
 baseurl = "/"
 theme = "terminal"
 paginate = 5
-baseUrl = "https://newredroses.github.io/"
+baseUrl = "https://newredroses.github.io/Final-Integration-Project-Documentation/public"
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
