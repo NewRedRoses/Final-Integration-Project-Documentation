@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://newredroses.github.io/Final-Integration-Project-Documentation/pages/documentation/</loc>
+    <loc>https://newredroses.github.io/pages/about/</loc>
+    <lastmod>2023-05-12T09:49:46-05:00</lastmod>
+  </url><url>
+    <loc>https://newredroses.github.io/</loc>
+    <lastmod>2023-05-12T09:49:46-05:00</lastmod>
+  </url><url>
+    <loc>https://newredroses.github.io/pages/</loc>
+    <lastmod>2023-05-12T09:49:46-05:00</lastmod>
+  </url><url>
+    <loc>https://newredroses.github.io/pages/documentation/</loc>
     <lastmod>2023-05-12T09:28:00-05:00</lastmod>
   </url><url>
-    <loc>https://newredroses.github.io/Final-Integration-Project-Documentation/pages/</loc>
-    <lastmod>2023-05-12T09:28:00-05:00</lastmod>
+    <loc>https://newredroses.github.io/categories/</loc>
   </url><url>
-    <loc>https://newredroses.github.io/Final-Integration-Project-Documentation/</loc>
-    <lastmod>2023-05-12T09:28:00-05:00</lastmod>
-  </url><url>
-    <loc>https://newredroses.github.io/Final-Integration-Project-Documentation/categories/</loc>
-  </url><url>
-    <loc>https://newredroses.github.io/Final-Integration-Project-Documentation/tags/</loc>
+    <loc>https://newredroses.github.io/tags/</loc>
   </url>
 </urlset>
