@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Documentation :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Introduction This is the documentation page for my CSC 2464 final project. There is information for the project outline, a brief description, schematics, and future ideas for the project.
+Project Outline The idea for the project started with a simple addition to the painting app project of adding customizable colors with the use of an arduino board and potentiometers. The goal was to provide an alternative way to explore human-machine interactions." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/pages/documentation/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/img/theme-colors/red.png">
+  <link rel="apple-touch-icon" href="/img/theme-colors/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Documentation">
+<meta property="og:description" content="Introduction This is the documentation page for my CSC 2464 final project. There is information for the project outline, a brief description, schematics, and future ideas for the project.
+Project Outline The idea for the project started with a simple addition to the painting app project of adding customizable colors with the use of an arduino board and potentiometers. The goal was to provide an alternative way to explore human-machine interactions." />
+<meta property="og:url" content="/pages/documentation/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-05-12 09:28:00 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="red">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Home
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/pages/about">About</a></li>
+        
+      
+        
+          <li><a href="/pages/documentation">Documentation</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/pages/about" >About</a></li>
+        
+      
+        
+          <li><a href="/pages/documentation" >Documentation</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/pages/documentation/">Documentation</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2023-05-12 ::
+        
+      </time>
+    
+    
+    
+  </div>
+
+  
+  
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#project-outline">Project Outline</a>
+      <ul>
+        <li><a href="#initial-plan">Initial Plan</a></li>
+        <li><a href="#final-result">Final result</a></li>
+      </ul>
+    </li>
+    <li><a href="#future-ideas">Future ideas</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h2 id="introduction">Introduction<a href="#introduction" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>This is the documentation page for my CSC 2464 final project. There is information for the project outline, a brief description, schematics, and future ideas for the project.</p>
+<h2 id="project-outline">Project Outline<a href="#project-outline" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The idea for the project started with a simple addition to the painting app project of adding customizable colors with the use of an arduino board and potentiometers. The goal was to provide an alternative way to explore human-machine interactions.</p>
+<h3 id="initial-plan">Initial Plan<a href="#initial-plan" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Originally, I had planned to make use of LED lights to provide a preview of colors as they are individually changed by the potentionmeter. Below is a rough draft of what I had planned.</p>
+<p><img src="/pages/initial-design.png" alt="Initial design"></p>
+<p>Although at the time it made sense, I decided to not go forward with the addition of LED to provide a preview since the project already provides a preview in the p5 canvas. I believed it added unnecessary complexity to the project but I did like the aspect of feedback. So insteda, I decided to add a simple LED light to indicate when the user is performing any activity with the app.</p>
+<h3 id="final-result">Final result<a href="#final-result" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>I decided to stick to a simpler design that made use of the of the arduino board to adjust the hue,saturation and brightness of the color. Initially, I had planned on using simple RGB but was advised that the HSB system would be a more humane way of dealing with color.
+Below is a video of me using the final design. If the video is cropped, make the video fullscreen.<br>
+<div class="container">
+  <div id="player-wrapper" class="my-5"></div>
+</div>
+
+<script 
+  type="text/javascript" 
+  src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"
+>
+</script>
+
+<script>
+  var playerElement = document.getElementById("player-wrapper");
+
+  var player = new Clappr.Player({
+    source: "/pages/videoDemo.mp4",
+    mute: true,
+    height: 900,
+    width: 600 
+  });
+
+  player.attachTo(playerElement);  
+</script>
+</p>
+<p>Here&rsquo;s what the board and the pin placements looked like. The gap is due to potential features.
+<img src="/pages/final-image.jpg" alt="final image"></p>
+<h2 id="future-ideas">Future ideas<a href="#future-ideas" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Further additions can be added to the project in order to add more interesting functionality. One suggestion by my professors was the change of brush size through the use of movement through the bionic sensors that came in the arduino kit.</p>
+<p>Another addition could be to provide joystick support to control the cursor through the use of fingers instead of a mouse.</p>
+<p>Both of these additions would enhance the experience of the project.</p>
+
+      </div></div>
+
+  
+    
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
