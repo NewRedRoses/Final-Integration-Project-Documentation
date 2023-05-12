@@ -15,47 +15,6 @@
       <guid>/pages/documentation/</guid>
       <description>Introduction This is the documentation page for my CSC 2464 final project. There is information for the project outline, a brief description, schematics, and future ideas for the project.
 Project Outline The idea for the project started with a simple addition to the painting app project of adding customizable colors with the use of an arduino board and potentiometers. The goal was to provide an alternative way to explore human-machine interactions.</description>
-      <content>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is the documentation page for my CSC 2464 final project. There is information for the project outline, a brief description, schematics, and future ideas for the project.&lt;/p&gt;
-&lt;h2 id=&#34;project-outline&#34;&gt;Project Outline&lt;/h2&gt;
-&lt;p&gt;The idea for the project started with a simple addition to the painting app project of adding customizable colors with the use of an arduino board and potentiometers. The goal was to provide an alternative way to explore human-machine interactions.&lt;/p&gt;
-&lt;h3 id=&#34;initial-plan&#34;&gt;Initial Plan&lt;/h3&gt;
-&lt;p&gt;Originally, I had planned to make use of LED lights to provide a preview of colors as they are individually changed by the potentionmeter. Below is a rough draft of what I had planned.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/pages/initial-design.png&#34; alt=&#34;Initial design&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Although at the time it made sense, I decided to not go forward with the addition of LED to provide a preview since the project already provides a preview in the p5 canvas. I believed it added unnecessary complexity to the project but I did like the aspect of feedback. So insteda, I decided to add a simple LED light to indicate when the user is performing any activity with the app.&lt;/p&gt;
-&lt;h3 id=&#34;final-result&#34;&gt;Final result&lt;/h3&gt;
-&lt;p&gt;I decided to stick to a simpler design that made use of the of the arduino board to adjust the hue,saturation and brightness of the color. Initially, I had planned on using simple RGB but was advised that the HSB system would be a more humane way of dealing with color.
-Below is a video of me using the final design. If the video is cropped, make the video fullscreen.&lt;br&gt;
-&lt;div class=&#34;container&#34;&gt;
-  &lt;div id=&#34;player-wrapper&#34; class=&#34;my-5&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script 
-  type=&#34;text/javascript&#34; 
-  src=&#34;https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js&#34;
-&gt;
-&lt;/script&gt;
-
-&lt;script&gt;
-  var playerElement = document.getElementById(&#34;player-wrapper&#34;);
-
-  var player = new Clappr.Player({
-    source: &#34;/pages/videoDemo.mp4&#34;,
-    mute: true,
-    height: 900,
-    width: 600 
-  });
-
-  player.attachTo(playerElement);  
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s what the board and the pin placements looked like. The gap is due to potential features.
-&lt;img src=&#34;/pages/final-image.jpg&#34; alt=&#34;final image&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;future-ideas&#34;&gt;Future ideas&lt;/h2&gt;
-&lt;p&gt;Further additions can be added to the project in order to add more interesting functionality. One suggestion by my professors was the change of brush size through the use of movement through the bionic sensors that came in the arduino kit.&lt;/p&gt;
-&lt;p&gt;Another addition could be to provide joystick support to control the cursor through the use of fingers instead of a mouse.&lt;/p&gt;
-&lt;p&gt;Both of these additions would enhance the experience of the project.&lt;/p&gt;
-</content>
     </item>
     
   </channel>
